@@ -1,0 +1,33 @@
+
+<!--<script>-->
+<!--(function(w, d, s, h, id) {-->
+<!--    w.roistatProjectId = id; w.roistatHost = h;-->
+<!--    var p = d.location.protocol == "https:" ? "https://" : "http://";-->
+<!--    var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init?referrer="+encodeURIComponent(d.location.href);-->
+<!--    var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);-->
+<!--})(window, document, 'script', 'cloud.roistat.com', '162e6487130725d0c7045b0ea6894700');-->
+<!--</script>-->
+
+<body>
+<script>
+(function(w, d, s, h, id) {
+    w.roistatProjectId = id; w.roistatHost = h;
+    var p = d.location.protocol == "https:" ? "https://" : "http://";
+    var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init?referrer="+encodeURIComponent(d.location.href);
+    var js = d.createElement(s);
+    js.charset="UTF-8"; js.async = 1;
+    js.src = p+h+u;
+    var js2 = d.getElementsByTagName(s)[0];
+    js2.parentNode.insertBefore(js, js2);
+})
+
+(window, document, 'script', 'cloud.roistat.com', '162e6487130725d0c7045b0ea6894700');
+</script>
+</body>
+
+<h1>About page</h1>
+<head>
+
+<!--<meta http-equiv="refresh" content="1;URL=http://127.0.0.1:8000/redirect2/" />-->
+<!--</head>-->
+
